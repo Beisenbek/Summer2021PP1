@@ -8,14 +8,14 @@ int main() {
     int n;
     cin >> n;
     int a[n];
-    for(int i = 0; i < n; ++i){
+    for(int i = 0; i < n; i++){
         cin >> a[i];
     }
 
     int m;
     cin >> m;
     int b[m];
-    for(int i = 0; i < m; ++i){
+    for(int i = 0; i < m; i++){
         cin >> b[i];
     }
 
@@ -33,12 +33,12 @@ int main() {
     }
 
     if(r < n){
-        for(int i = r; i < n; ++i){
+        for(int i = r; i < n; i++){
             cout << a[i] << " ";
         }
     }
     else if(l < m){
-        for(int i = l; i < m; ++i){
+        for(int i = l; i < m; i++){
             cout << b[i] << " ";
         }
     }
