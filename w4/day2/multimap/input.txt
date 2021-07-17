@@ -1,0 +1,4 @@
+3
+apple 100
+apple 20
+banana 200
